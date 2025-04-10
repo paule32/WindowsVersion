@@ -1,4 +1,4 @@
-name: Compile UI and Build EXE
+name: Compile Console App and Build EXE
 
 on:
   push:
@@ -19,10 +19,10 @@ jobs:
       with:
         python-version: 3.10
 
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install wim
+    #- name: Install dependencies
+    #  run: |
+    #    python -m pip install --upgrade pip
+    #    pip install -r src\CertTool\exports\requirements.txt
 
     - name: Build EXE with PyInstaller
       run: |
@@ -31,7 +31,7 @@ jobs:
     - name: Upload Windows Release
       uses: actions/upload-artifact@v4
       with:
-        name: WindowsVersion
+        name: CertTool_Build
         path: |
             ./LICENSE
-            dist/versiob.exe
+            dist/version.exe
