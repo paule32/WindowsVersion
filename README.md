@@ -5,7 +5,7 @@ System: Windows, Release: 11, Version: 10.0.22621<br>
 <br>
 
 | Win32_OperatingSystem: |
-|------------------------|--------|
+------------------------|--------|
 |  OS Name        | Microsoft Windows 11 Pro |
 |  Version        | 10.0.22621 |
 |  Build Number   | 22621 |
