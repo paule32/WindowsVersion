@@ -32,7 +32,7 @@ jobs:
     - name: Upload Windows Release
       uses: actions/upload-artifact@v4
       with:
-        name: CertTool_Build
+        name: WindowsVersion
         path: |
             ./LICENSE
             dist/version.exe
