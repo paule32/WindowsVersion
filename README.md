@@ -36,25 +36,25 @@ System: Windows, Release: 11, Version: 10.0.22621<br>
 
 | Win32_LogicalDisk      |          |    |
 |------------------------|----------|----|
-|  | Drive C:            |          |    |
+|  Drive C:              |          |    |
 |  |---------------------|----------|    |
 |  | FileSystem          | NTFS     |    |
 |  | Size (GB)           | 499      |    |
 |  | Free Space          | 250      |    |
 |  |---------------------|----------|    |
-|  | Drive E:            |          |    |
+|  Drive E:              |          |    |
 |  |---------------------|----------|    |
 |  | FileSystem          | NTFS     |    |
 |  | Size (GB)           | 110      |    |
 |  | Free Space          | 110      |    |
 |  |---------------------|----------|    |
-|  |  Drive F: One Touch |          |    |
+|  Drive F: One Touch    |          |    |
 |  |---------------------|----------|    |
 |  | FileSystem          | exFAT    |    |
 |  | Size (GB)           | 931      |    |
 |  | Free Space          | 871      |    |
 |  |---------------------|----------|    |
-|  | Drive T: Volume     |          |    |
+|  Drive T: Volume       |          |    |
 |  |---------------------|----------|    |
 |  | FileSystem          | NTFS     |    |
 |  | Size (GB)           | 431      |    |
