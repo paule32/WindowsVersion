@@ -5,13 +5,13 @@ System: Windows, Release: 11, Version: 10.0.22621<br>
 <br>
 
 | Win32_OperatingSystem: |
--------------------------|
-|  OS Name        | Microsoft Windows 11 Pro
-|  Version        | 10.0.22621
-|  Build Number   | 22621
-|  Registered User| Windows-Benutzer
-|  Install Date   | 20241107211730.000000+060
-|  System Root    | C:\Windows\system32
+|------------------------|--------|
+|  OS Name        | Microsoft Windows 11 Pro |
+|  Version        | 10.0.22621 |
+|  Build Number   | 22621 |
+|  Registered User| Windows-Benutzer |
+|  Install Date   | 20241107211730.000000+060 |
+|  System Root    | C:\Windows\system32 |
 
 Win32_ComputerSystem:<br>
   Computer Name  : DESKTOP<br>
