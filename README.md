@@ -13,38 +13,49 @@ System: Windows, Release: 11, Version: 10.0.22621<br>
 |  Install Date         | 20241107211730.000000+060 |
 |  System Root          | C:\Windows\system32       |
 
-Win32_ComputerSystem:<br>
-  Computer Name  : DESKTOP<br>
-  User Name      : DESKTOP\Benutzer<br>
-  Manufacturer   : FUJITSU<br>
-  Model          : ESPRIMO E720<br>
-  RAM (MB)       : 16267<br>
-<br>
-Win32_BIOS:<br>
-  BIOS Version   : FUJITSU - 1072009 BIOS Date: 01/08/15 13:41:18 Ver: 04.06.05 BIOS Date: 01/08/15 13:41:18 Ver: 04.06.05<br>
-  Serial Number  : YLQR066779<br>
-  Release Date   : 20150108000000.000000+000<br>
-<br>
-Win32_Processor:<br>
-  CPU Name       : Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz<br>
-  Cores          : 4<br>
-  Threads        : 8<br>
-  Max Clock Speed: 3601 MHz<br>
-<br>
-Win32_LogicalDisk:<br>
-  Drive C:<br>
-    FileSystem   : NTFS<br>
-    Size (GB)    : 499<br>
-    Free Space   : 250<br>
-  Drive E:<br>
-    FileSystem   : NTFS<br>
-    Size (GB)    : 110<br>
-    Free Space   : 110<br>
-  Drive F: One Touch<br>
-    FileSystem   : exFAT<br>
-    Size (GB)    : 931<br>
-    Free Space   : 871<br>
-  Drive T: Volume<br>
-    FileSystem   : NTFS<br>
-    Size (GB)    : 431<br>
-    Free Space   : 410<br>
+| Win32_ComputerSystem  |                           |
+|-----------------------|---------------------------|
+|  Computer Name        | DESKTOP                   |
+|  User Name            | DESKTOP\Benutzer          |
+|  Manufacturer         | FUJITSU                   |
+|  Model                | ESPRIMO E720              |
+|  RAM (MB)             | 16267                     |
+
+| Win32_BIOS            |                           |
+|-----------------------|---------------------------|
+|  BIOS Version         | FUJITSU - 1072009 BIOS Date: 01/08/15 13:41:18 Ver: 04.06.05 BIOS Date: 01/08/15 13:41:18 Ver: 04.06.05 |
+|  Serial Number        | YLQR066779                |
+|  Release Date         | 20150108000000.000000+000 |
+
+| Win32_Processor       |                           |
+|-----------------------|---------------------------|
+|  CPU Name             | Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz |
+|  Cores                | 4 |
+|  Threads              | 8 |
+|  Max Clock Speed      | 3601 MHz |
+
+| Win32_LogicalDisk      |          |                    |
+|------------------------|----------|--------------------|
+|  | Drive C:            |          |
+|--|---------------------|----------|
+|  | FileSystem          | NTFS     |
+|  | Size (GB)           | 499      |
+|  | Free Space          | 250      |
+|--|---------------------|----------|
+|--| Drive E:            |          |
+|--|---------------------|----------|
+|  | FileSystem          | NTFS     |
+|  | Size (GB)           | 110      |
+|  | Free Space          | 110      |
+|--|---------------------|----------|
+|--|  Drive F: One Touch |          |
+|--|---------------------|----------|
+|  | FileSystem          | exFAT    |
+|  | Size (GB)           | 931      |
+|  | Free Space          | 871      |
+|--|---------------------|----------|
+|--| Drive T: Volume     |          |
+|--|---------------------|----------|
+|  | FileSystem          | NTFS     |
+|  | Size (GB)           | 431      |
+|  | Free Space          | 410      |
