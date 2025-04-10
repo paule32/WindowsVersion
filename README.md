@@ -35,7 +35,7 @@ System: Windows, Release: 11, Version: 10.0.22621<br>
 |  Max Clock Speed      | 3601 MHz |
 
 | Win32_LogicalDisk      |          |    |
-|----------------------------------------|
+|------------------------|----------|----|
 |  | Drive C:            |          |    |
 |  |---------------------|----------|    |
 |  | FileSystem          | NTFS     |    |
